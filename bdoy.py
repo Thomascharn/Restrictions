@@ -19,160 +19,172 @@
 	    <integer>1</integer>
         #General
         <key>allowCamera</key>
-        <True/> 
+        <true/> 
         <key>allowDeviceSleep</key>
-        <True/>
+        <true/>
         <key>allowVideoConferencing</key>
-        <True/> 
+        <true/> 
         <key>allowScreenShot</key>
-        <True/>
+        <true/>
         <key>allowProximitySetupToNewDevice</key>
-        <False/>
+        <false/>
         <key>allowVoiceDialing</key>
-        <False/>
+        <false/>
         <key>forceClassroomUnpromptedAppAndDeviceLock</key>
-        <False/>
+        <false/>
         <key>forceClassroomUnpromptedScreenObservation</key>
-        <False/>
+        <false/>
         <key>forceClassroomAutomaticallyJoinClasses</key>
-        <False/>
+        <false/>
         <key>forceClassroomRequestPermissionToLeaveClasses</key>
-        <False/>
+        <false/>
         <key>forceAutomaticDateAndTime</key>
-        <False/>
+        <false/>
         #Lock Screen
         <key>allowLockScreenControlCenter</key>
-        <True/>
+        <true/>
         <key>allowLockScrenNotificationsView</key>
-        <True/>
+        <true/>
         <key>allowLockScreenTodayView</key>
-        <True/>
+        <true/>
         <key>allowPassbookWhileLocked</key>
-        <True/>
+        <true/>
         #USB & Pairing
         <key>allowHostPairing</key>
-        <True/>
+        <true/>
         <key>allowUSBRestrictedMode</key>
-        <False/>
+        <false/>
         #Apps
         <key>allowAppClips</key>
-        <True/>
+        <true/>
         <key>allowUIAppInstallation</key>
-        <True/>
+        <true/>
         <key>allowAutomaticAppDownloads</key>
-        <True/>
+        <true/>
         <key>allowChat</key>
-        <True/>
+        <true/>
         <key>allowAppInstallation</key>
-        <True/>
+        <true/>
         <key>allowAppRemoval</key>
-        <True/>
+        <true/>
         <key>allowSystemAppRemoval</key>
-        <True/>
+        <true/>
         <key>allowEnterpriseAppTrust</key>
-        <True/>
+        <true/>
         <key>allowListedAppBundleIDs</key>
-        <False/>
+        <false/>
         #Managed Open-In
         <key>allowOpenFromManagedToUnmanaged</key>
-        <False/>
+        <false/>
         <key>allowOpenFromUnmanagedToManaged</key>
-        <True/>
+        <true/>
         <key>allowManagedAppsCloudSync</key>
-        <False/>
+        <false/>
         <key>forceAirDropUnmanaged</key>
-        <True/>
+        <true/>
         #iCloud
         <key>allowCloudBackup</key>
-        <True/>
+        <true/>
         <key>allowCloudDocumentSync</key>
-        <True/>
+        <true/>
         <key>allowCloudKeychainSync</key>
-        <False/>
+        <false/>
         <key>allowCloudPhotoLibrary</key>
-        <True/>
+        <true/>
         <key>allowPhotoStream</key>
-        <True/>
+        <true/>
         <key>allowSharedStream</key>
-        <True/>
+        <true/>
         #Safari
         <key>allowSafari</key>
-        <True/>
+        <true/>
         <key>safariAcceptCookies</key>
-        <True/>
+        <true/>
         <key>safariAllowAutoFill</key>
-        <True/>
+        <true/>
         <key>safariAllowJavaScript</key>
-        <True/>
+        <true/>
         <key>safariAllowPopups</key>
-        <False/>
+        <false/>
         <key>safariForceFraudWarning</key>
-        <True/>
+        <true/>
         #AirPrint
         <key>allowAirPrint</key>
-        <True/>
+        <true/>
         <key>allowAirPrintCredentialsStorage</key>
-        <True/>
+        <true/>
         <key>allowAirPrintiBeaconDiscovery</key>
-        <True/>
+        <true/>
         <key>forceAirPrintTrustedTLSRequirement</key>
-        <True/>
+        <true/>
         #Notifications
         <key>allowNotificationsModification</key>
-        <True/>
+        <true/>
         #Files
         <key>allowFilesNetworkDriveAccess</key>
-        <True/>
+        <true/>
         <key>allowFilesUSBDriveAccess</key>
-        <True/>
+        <true/>
         #Apple Watch
         <key>allowPairedWatch</key>
-        <True/>
+        <true/>
         <key>forceWatchWristDetection</key>
-        <False/>
+        <false/>
         #Network and connectivity
         <key>allowVPNCreation</key>
-        <False/>
+        <false/>
         #Security and Privacy
         <key>allowEnablingRestrictions</key>
-        <True/>
+        <true/>
         <key>allowEraseContentAndSettings</key>
-        <False/>
+        <false/>
         <Key>allowFindMyDevice</key>
-        <True/>
+        <true/>
         <key>allowFindMyFriends</key>
-        <False/>
+        <false/>
         <key>allowUIConfiguationProfileInstallation</key>
-        <False/>
+        <false/>
         <key>allowPasscodeModification</key>
-        <True/>
+        <true/>
         <key>allowPasswordAutofill</key>
-        <True/>
+        <true/>
         <key>allowPasswordSharing</key>
-        <False/>
+        <false/>
         <key>allowApplePersonalizedAdvertising</key>
-        <False/>
+        <false/>
         <key>allowPasswordProximityRequests</key>
-        <False/>
+        <false/>
         <key>allowDiagnosticSubmission</key>
-        <False/>
+        <false/>
         <key>allowFingerprintModification</key>
-        <True/>
+        <true/>
         <key>allowFingerprintForUnlock</key>
-        <True/>
+        <true/>
         <key>allowUnpairedExternalBootToRecovery</key>
-        <False/>
+        <false/>
         <key>allowUntrustedTLSPrompt</key>
-        <False/>
+        <false/>
         <key>forceEncryptedBackup</key>
-        <True/>
+        <true/>
         <key>forceLimitAdTracking</key>
-        <True/>
+        <true/>
         <key>allowAccountModification</key>
-        <True/>
+        <true/>
         <key>forceAuthenticationBeforeAutoFill</key>
-        <True/>
+        <true/>
         <key>forceDelayedSoftwareUpdates</key>
-        <False/>
+        <false/>
         <key>allowAssistantWhileLocked</key>
-        <False/>
+        <false/>
+    <key>PayloadOrganization</key>
+	<string>CBC</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>ECC85AF7-1326-43F4-A517-80115B57A6CC</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
