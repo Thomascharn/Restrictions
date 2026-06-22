@@ -136,3 +136,36 @@
 | Setting | XML Key | Value |
 |---|---|---|
 | Allow Siri While Locked | `allowAssistantWhileLocked` | No |
+
+
+
+
+# Reasons for changes from guidelines
+- Allow Notification Center on Lock Screen - See any notifications quickly
+- Allow Today View on Lock Screen - Some people may use it to quickly see their widgets, including notes and reminders, rather than unlocking their device
+- Allow Control Center on Lock Screen - Some people may want to be able to want to quickly control their device, including turning brightness down
+
+- Allow pairing with Non-configurator Hosts -
+- USB restricted mode - If large sets of data are needed to be downloaded while the user is not close, so can not keep it unlocked
+
+- Allow Installing Apps - Users should be able to download what they want to on their personal device
+- Allow Trusting New Enterprise App Authors - Users shouldnt be restricted to newer apps on their personal devices
+- Restricted App Usage - Allow the user to use all apps
+
+- Allow Documents from Unmanaged Sources in Managed Destinations - Documents or photos from the users device so the process can be faster and more efficent while being safe
+
+- Allow iCloud Backup - So nothing is lost from their personal device
+- Allow iCloud Drive - Allows them to see their personal data and documents
+- Allow iCloud Photos - Allows them to use their personal devices photos anywhere
+- Allow My Photo Stream - Discontinued on newer devices, allowed for important photos to stay for a while
+- Allow Shared Albums - Share personal photos with family memebers or others
+
+- Allow Notifications Settings Modification - Users should be allowed to chose what notifcations happen and when on their personal device
+
+- Allow Files Access to Network Drive - Users should be able to send files online
+- Allow Files Access to USB Drives - Users should be able to move files physically
+
+- Allow Pairing with Apple Watch - Users should be able to use their personal watch while connected to their personal device
+
+- Allow Find My - If the user has many connected devices they might want to be able to track their locations
+- Modify Account Settings - The user may want to change a personal setting which should not be restricted
