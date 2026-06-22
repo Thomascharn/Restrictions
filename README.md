@@ -1,5 +1,5 @@
 # BYOD
-- The code in 'bdoy.py' has been written and structured in the same format as the below tables
+- The code in 'byod.py' has been written and structured in the same format as the below tables
 - Each section of code is also commented witht eh name of the tabe on this ReadME, e.g. General
 # iOS Restrictions
 
