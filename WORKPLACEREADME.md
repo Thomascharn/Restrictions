@@ -133,3 +133,23 @@
 | Setting | XML Key | Value |
 |---|---|---|
 | Allow Siri While Locked | `allowAssistantWhileLocked` | No |
+
+# Reasons for changes from guidelines
+- Allow Control Center on Lock Screen - Un-necessary restriction for user, unbocked poses no threat
+- Allow Notification Center on Lock Screen - Un-necessary restriction for user, unbocked poses no threat
+- Allow Today View on Lock Screen - Un-necessary restriction for user, unbocked poses no threat
+
+- USB Restricted Mode - Allows for all devices to be used and not have to be approved
+
+- Allow Managed Apps to Store Data in iCloud - Allows users to work on any of their work devices
+
+- Allow iCloud Backup - Allows users to have their work automatically saved
+- Allow iCloud Drive - Allows users to see data on any device
+- Allow iCloud Photos - Allows users to uploadphotos from devices to others
+
+- Allow Notification Settings Modifications - Allows users to view whatever notifications they want to
+  
+- Allow File Access to USB Drives - Allows users to transfer data via USB
+- Allow File Access to Network Drives - Allows users to transfer data via the internet
+
+- Allow Find My - Allows users to track their other work devices if they need to
