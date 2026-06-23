@@ -10,8 +10,8 @@
 - Users are responsible for backing up their personal databefore enrolling in BYOD (Bring Your Own Device)
 
 
-  ## Acceptable Use:
-  - Council devices and accounts must only be used for legitimate business purposes
-  - Users must not access inappropriate, illegal, or offensive content using council resources
-  - Users must not install unapproved software that could compromise security
-  - users must not connect to unsecured networks that could compromise security 
+## Acceptable Use:
+- Council devices and accounts must only be used for legitimate business purposes
+- Users must not access inappropriate, illegal, or offensive content using council resources
+- Users must not install unapproved software that could compromise security
+- users must not connect to unsecured networks that could compromise security 
