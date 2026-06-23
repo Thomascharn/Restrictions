@@ -19,16 +19,16 @@
 ## Lock Screen
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Control Center on Lock Screen | `allowLockScreenControlCenter` | No |
-| Allow Notification Center on Lock Screen | `allowLockScreenNotificationsView` | No |
-| Allow Today View on Lock Screen | `allowLockScreenTodayView` | No |
+| Allow Control Center on Lock Screen | `allowLockScreenControlCenter` | Yes |
+| Allow Notification Center on Lock Screen | `allowLockScreenNotificationsView` | Yes |
+| Allow Today View on Lock Screen | `allowLockScreenTodayView` | Yes |
 | Allow Wallet (Passbook) on Lock Screen | `allowPassbookWhileLocked` | Yes |
 
 ## USB & Pairing
 | Setting | XML Key | Value |
 |---|---|---|
 | Allow Pairing with Non‑Configurator Hosts | `allowHostPairing` | No |
-| USB Restricted Mode (Disallow USB Accessories While Locked) | `allowUSBRestrictedMode` | Yes |
+| USB Restricted Mode (Disallow USB Accessories While Locked) | `allowUSBRestrictedMode` | No |
 
 ## Apps
 | Setting | XML Key | Value |
@@ -48,18 +48,18 @@
 |---|---|---|
 | Allow Documents from Managed Sources in Unmanaged Destinations | `allowOpenFromManagedToUnmanaged` | No |
 | Allow Documents from Unmanaged Sources in Managed Destinations | `allowOpenFromUnmanagedToManaged` | No |
-| Allow Managed Apps to Store Data in iCloud | `allowManagedAppsCloudSync` | No |
+| Allow Managed Apps to Store Data in iCloud | `allowManagedAppsCloudSync` | Yes |
 | Treat AirDrop as Unmanaged Destination | `forceAirDropUnmanaged` | Yes |
 
 ## iCloud
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow iCloud Backup | `allowCloudBackup` | No |
-| Allow iCloud Drive (Documents & Data) | `allowCloudDocumentSync` | No |
+| Allow iCloud Backup | `allowCloudBackup` | Yes |
+| Allow iCloud Drive (Documents & Data) | `allowCloudDocumentSync` | Yes |
 | Allow iCloud Keychain | `allowCloudKeychainSync` | No |
-| Allow iCloud Photos | `allowCloudPhotoLibrary` | No |
-| Allow My Photo Stream | `allowPhotoStream` | No |
-| Allow Shared Albums | `allowSharedStream` | No |
+| Allow iCloud Photos | `allowCloudPhotoLibrary` | Yes |
+| Allow My Photo Stream | `allowPhotoStream` | Yes |
+| Allow Shared Albums | `allowSharedStream` | Yes |
 
 ## Safari
 | Setting | XML Key | Value |
@@ -82,13 +82,13 @@
 ## Notifications
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Notifications Settings Modification | `allowNotificationsModification` | No |
+| Allow Notifications Settings Modification | `allowNotificationsModification` | Yes |
 
 ## Files
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Files Access to Network Drives | `allowFilesNetworkDriveAccess` | No |
-| Allow Files Access to USB Drives | `allowFilesUSBDriveAccess` | No |
+| Allow Files Access to Network Drives | `allowFilesNetworkDriveAccess` | Yes |
+| Allow Files Access to USB Drives | `allowFilesUSBDriveAccess` | Yes |
 
 ## Apple Watch
 | Setting | XML Key | Value |
@@ -106,7 +106,7 @@
 |---|---|---|
 | Allow Enabling Restrictions (Screen Time) | `allowEnablingRestrictions` | Yes |
 | Allow Erase All Content and Settings | `allowEraseContentAndSettings` | No |
-| Allow Find My | `allowFindMyDevice` | No |
+| Allow Find My | `allowFindMyDevice` | Yes |
 | Allow Find My Friends/People | `allowFindMyFriends` | No |
 | Allow Installing Configuration Profiles (UI) | `allowUIConfigurationProfileInstallation` | No |
 | Allow Passcode Modification | `allowPasscodeModification` | Yes |
