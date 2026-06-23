@@ -1,7 +1,4 @@
-# WORKPLACE
-- The code in 'workplace.py' has been written and structured in the same format as the below tables
-- Each section of code is also commented with the name of the tabe on this ReadME, e.g. General
-# iOS Restrictions
+# Workplace Restrictions
 
 ## General
 | Setting | XML Key | Value |
@@ -22,16 +19,16 @@
 ## Lock Screen
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Control Center on Lock Screen | `allowLockScreenControlCenter` | Yes |
-| Allow Notification Center on Lock Screen | `allowLockScreenNotificationsView` | Yes |
-| Allow Today View on Lock Screen | `allowLockScreenTodayView` | Yes |
+| Allow Control Center on Lock Screen | `allowLockScreenControlCenter` | No |
+| Allow Notification Center on Lock Screen | `allowLockScreenNotificationsView` | No |
+| Allow Today View on Lock Screen | `allowLockScreenTodayView` | No |
 | Allow Wallet (Passbook) on Lock Screen | `allowPassbookWhileLocked` | Yes |
 
 ## USB & Pairing
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Pairing with Non‑Configurator Hosts | `allowHostPairing` | Yes |
-| USB Restricted Mode (Disallow USB Accessories While Locked) | `allowUSBRestrictedMode` | No |
+| Allow Pairing with Non‑Configurator Hosts | `allowHostPairing` | No |
+| USB Restricted Mode (Disallow USB Accessories While Locked) | `allowUSBRestrictedMode` | Yes |
 
 ## Apps
 | Setting | XML Key | Value |
@@ -40,35 +37,35 @@
 | Allow App Installation via App Store | `allowUIAppInstallation` | Yes |
 | Allow Automatic App Downloads | `allowAutomaticAppDownloads` | Yes |
 | Allow iMessage | `allowChat` | Yes |
-| Allow Installing Apps | `allowAppInstallation` | Yes |
+| Allow Installing Apps | `allowAppInstallation` | No |
 | Allow Removing Apps | `allowAppRemoval` | Yes |
 | Allow Removing System Apps | `allowSystemAppRemoval` | Yes |
-| Allow Trusting New Enterprise App Authors | `allowEnterpriseAppTrust` | Yes |
-| Restrict App Usage | `allowListedAppBundleIDs` | No |
+| Allow Trusting New Enterprise App Authors | `allowEnterpriseAppTrust` | No |
+| Restrict App Usage | `allowListedAppBundleIDs` | Add permitted apps, example: 'com.apple.example' |
 
 ## Managed Open-In
 | Setting | XML Key | Value |
 |---|---|---|
 | Allow Documents from Managed Sources in Unmanaged Destinations | `allowOpenFromManagedToUnmanaged` | No |
-| Allow Documents from Unmanaged Sources in Managed Destinations | `allowOpenFromUnmanagedToManaged` | Yes |
+| Allow Documents from Unmanaged Sources in Managed Destinations | `allowOpenFromUnmanagedToManaged` | No |
 | Allow Managed Apps to Store Data in iCloud | `allowManagedAppsCloudSync` | No |
 | Treat AirDrop as Unmanaged Destination | `forceAirDropUnmanaged` | Yes |
 
 ## iCloud
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow iCloud Backup | `allowCloudBackup` | Yes |
-| Allow iCloud Drive (Documents & Data) | `allowCloudDocumentSync` | Yes |
+| Allow iCloud Backup | `allowCloudBackup` | No |
+| Allow iCloud Drive (Documents & Data) | `allowCloudDocumentSync` | No |
 | Allow iCloud Keychain | `allowCloudKeychainSync` | No |
-| Allow iCloud Photos | `allowCloudPhotoLibrary` | Yes |
-| Allow My Photo Stream | `allowPhotoStream` | Yes |
-| Allow Shared Albums | `allowSharedStream` | Yes |
+| Allow iCloud Photos | `allowCloudPhotoLibrary` | No |
+| Allow My Photo Stream | `allowPhotoStream` | No |
+| Allow Shared Albums | `allowSharedStream` | No |
 
 ## Safari
 | Setting | XML Key | Value |
 |---|---|---|
 | Allow Safari | `allowSafari` | Yes |
-| Safari: Accept Cookies | `safariAcceptCookies` | Yes |
+| Safari: Accept Cookies | `safariAcceptCookies` | From websites I visit |
 | Safari: Allow AutoFill | `safariAllowAutoFill` | Yes |
 | Safari: Allow JavaScript | `safariAllowJavaScript` | Yes |
 | Safari: Allow Pop‑ups | `safariAllowPopups` | No |
@@ -85,18 +82,18 @@
 ## Notifications
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Notifications Settings Modification | `allowNotificationsModification` | yes |
+| Allow Notifications Settings Modification | `allowNotificationsModification` | No |
 
 ## Files
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Files Access to Network Drives | `allowFilesNetworkDriveAccess` | Yes |
-| Allow Files Access to USB Drives | `allowFilesUSBDriveAccess` | Yes |
+| Allow Files Access to Network Drives | `allowFilesNetworkDriveAccess` | No |
+| Allow Files Access to USB Drives | `allowFilesUSBDriveAccess` | No |
 
 ## Apple Watch
 | Setting | XML Key | Value |
 |---|---|---|
-| Allow Pairing with Apple Watch | `allowPairedWatch` | Yes |
+| Allow Pairing with Apple Watch | `allowPairedWatch` | No |
 | Force Apple Watch Wrist Detection | `forceWatchWristDetection` | No |
 
 ## Network & Connectivity
@@ -109,7 +106,7 @@
 |---|---|---|
 | Allow Enabling Restrictions (Screen Time) | `allowEnablingRestrictions` | Yes |
 | Allow Erase All Content and Settings | `allowEraseContentAndSettings` | No |
-| Allow Find My | `allowFindMyDevice` | Yes |
+| Allow Find My | `allowFindMyDevice` | No |
 | Allow Find My Friends/People | `allowFindMyFriends` | No |
 | Allow Installing Configuration Profiles (UI) | `allowUIConfigurationProfileInstallation` | No |
 | Allow Passcode Modification | `allowPasscodeModification` | Yes |
@@ -124,7 +121,7 @@
 | Allow Untrusted TLS Certificate Prompt | `allowUntrustedTLSPrompt` | No |
 | Force Encrypted Backups | `forceEncryptedBackup` | Yes |
 | Force Limit Ad Tracking | `forceLimitAdTracking` | Yes |
-| Modify Account Settings | `allowAccountModification` | Yes |
+| Modify Account Settings | `allowAccountModification` | No |
 | Require Face ID / Touch ID Before AutoFill | `forceAuthenticationBeforeAutoFill` | Yes |
 
 ## Software Updates
