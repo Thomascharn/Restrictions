@@ -134,6 +134,19 @@
 |---|---|---|
 | Allow Siri While Locked | `allowAssistantWhileLocked` | No |
 
+## Passwords
+| Setting | XML Key | Value |
+|---|---|---|
+| Require Password | `allowSimple` | False | `forcePIN` | True
+| Minimum Passcode length | `minLength` | 12
+| Maximum Failed Attempts Before Wipe | `maxFailedAttempts` | 3
+| Auto-Lock After Inactivity | `maxInactivity` | 300 (5 Mins)
+| Force Change Passcode After Time | `maxPINAgeInDays` | 120
+| Passcode History | `pinHistory` | False
+| Minimum complex characters | `minComplexChars` | 1
+| Require Alphanumeric Passcode | `requireAlphanumeric` | True
+| Grace Period For Device Lock | `maxGracePeriod` | False
+
 # Reasons for changes from guidelines
 - Allow Control Center on Lock Screen - Un-necessary restriction for user, unbocked poses no threat
 - Allow Notification Center on Lock Screen - Un-necessary restriction for user, unbocked poses no threat
