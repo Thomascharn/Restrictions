@@ -128,7 +128,7 @@
 | Require Face ID / Touch ID Before AutoFill | `forceAuthenticationBeforeAutoFill` | Yes |
 | Require Password | `allowSimple` | False | `forcePIN` | True
 | Minimum Passcode length | `minLength` | 12
-| Maximum Failed Attempts Before Wipe | `maxFailedAttempts` | 5
+| Maximum Failed Attempts Before Wipe | `maxFailedAttempts` | 3
 | Auto-Lock After Inactivity | `maxInactivity` | 300 (5 Mins)
 | Force Change Passcode After Time | `maxPINAgeInDays` | 120
 | Passcode History | `pinHistory` | False
