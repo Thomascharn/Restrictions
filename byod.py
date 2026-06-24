@@ -176,6 +176,24 @@
         <false/>
         <key>allowAssistantWhileLocked</key>
         <false/>
+		<key>allowSimple</key>
+		<false/>
+		<key>minLength</key>
+		<integer>12</integer>
+		<key>maxFailedAttempts</key>
+		<integer>3</integer>
+		<key>maxInactivity</key>
+		<integer>300</integer>
+		<key>maxPINAgeInDays</key>
+		<integer>120</integer>
+		<key>pinHistory</key>
+		<false/>
+		<key>minComplexChars</key>
+		<integer>1</integer>
+		<key>requireAlphanumeric</key>
+		<true/>
+		<key>maxGracePeriod</key>
+		<false/>
     <key>PayloadOrganization</key>
 	<string>CBC</string>
 	<key>PayloadRemovalDisallowed</key>
