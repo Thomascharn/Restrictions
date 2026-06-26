@@ -17,7 +17,7 @@
 	    <string>3CF474DA-AFEC-4378-9EEB-3F7F0717B596</string>
 	    <key>PayloadVersion</key>
 	    <integer>1</integer>
-        #General
+        <!--General -->
         <key>allowCamera</key>
         <true/> 
         <key>allowDeviceSleep</key>
@@ -42,7 +42,7 @@
         <false/>
         <key>forceAutomaticDateAndTime</key>
         <false/>
-        #Lock Screen
+        <!--Lock Screen -->
         <key>allowLockScreenControlCenter</key>
         <true/>
         <key>allowLockScrenNotificationsView</key>
@@ -51,12 +51,12 @@
         <true/>
         <key>allowPassbookWhileLocked</key>
         <true/>
-        #USB & Pairing
+        <!--USB & Pairing -->
         <key>allowHostPairing</key>
         <false/>
         <key>allowUSBRestrictedMode</key>
         <false/>
-        #Apps
+        <!--Apps -->
         <key>allowAppClips</key>
         <true/>
         <key>allowUIAppInstallation</key>
@@ -75,7 +75,7 @@
         <false/>
         <key>allowListedAppBundleIDs</key>
         <false/>
-        #Managed Open-In
+        <!--Managed Open-In -->
         <key>allowOpenFromManagedToUnmanaged</key>
         <false/>
         <key>allowOpenFromUnmanagedToManaged</key>
@@ -84,7 +84,7 @@
         <true/>
         <key>forceAirDropUnmanaged</key>
         <true/>
-        #iCloud
+        <!--iCloud -->
         <key>allowCloudBackup</key>
         <true/>
         <key>allowCloudDocumentSync</key>
@@ -97,7 +97,7 @@
         <true/>
         <key>allowSharedStream</key>
         <true/>
-        #Safari
+        <!--Safari -->
         <key>allowSafari</key>
         <true/>
         <key>safariAcceptCookies</key>
@@ -110,7 +110,7 @@
         <false/>
         <key>safariForceFraudWarning</key>
         <true/>
-        #AirPrint
+        <!--AirPrint -->
         <key>allowAirPrint</key>
         <true/>
         <key>allowAirPrintCredentialsStorage</key>
@@ -119,23 +119,23 @@
         <true/>
         <key>forceAirPrintTrustedTLSRequirement</key>
         <true/>
-        #Notifications
+        <!--Notifications -->
         <key>allowNotificationsModification</key>
         <true/>
-        #Files
+        <!--Files -->
         <key>allowFilesNetworkDriveAccess</key>
         <true/>
         <key>allowFilesUSBDriveAccess</key>
         <true/>
-        #Apple Watch
+        <!--Apple Watch -->
         <key>allowPairedWatch</key>
         <false/>
         <key>forceWatchWristDetection</key>
         <false/>
-        #Network and connectivity
+        <!--Network and connectivity -->
         <key>allowVPNCreation</key>
         <false/>
-        #Security and Privacy
+        <!--Security and Privacy -->
         <key>allowEnablingRestrictions</key>
         <true/>
         <key>allowEraseContentAndSettings</key>
@@ -178,25 +178,25 @@
         <false/>
         <key>allowAssistantWhileLocked</key>
         <false/>
-        <key>allowSimple</key>
-		    <false/>
-		    <key>minLength</key>
-		    <integer>12</integer>
-		    <key>maxFailedAttempts</key>
-		    <integer>3</integer>
-		    <key>maxInactivity</key>
-		    <integer>300</integer>
-		    <key>maxPINAgeInDays</key>
-		    <integer>120</integer>
-		    <key>pinHistory</key>
-		    <false/>
-		    <key>minComplexChars</key>
-		    <integer>1</integer>
-		    <key>requireAlphanumeric</key>
-		    <true/>
-		    <key>maxGracePeriod</key>
-		    <false/>
-  <key>PayloadOrganization</key>
+        <key>forcePIN</key>
+		<true/>
+		<key>minLength</key>
+		<integer>12</integer> 
+		<key>maxFailedAttempts</key>
+		<integer>3</integer>
+		<key>maxInactivity</key> 
+	    <integer>300</integer>
+	    <key>maxPINAgeInDays</key>
+		<integer>120</integer>
+		<key>pinHistory</key>
+		<false/>
+		<key>minComplexChars</key>
+		<integer>1</integer>
+		<key>requireAlphanumeric</key>
+		<true/>
+		<key>maxGracePeriod</key>
+		<false/>
+    <key>PayloadOrganization</key>
 	<string>CBC</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
