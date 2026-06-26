@@ -178,8 +178,8 @@
         <false/>
         <key>allowAssistantWhileLocked</key>
         <false/>
-		<key>allowSimple</key>
-		<false/>
+		<key>forcePIN</key>
+		<true/>
 		<key>minLength</key>
 		<integer>12</integer>
 		<key>maxFailedAttempts</key>
