@@ -140,15 +140,15 @@
 ## Passwords
 | Setting | XML Key | Value |
 |---|---|---|
-| Require Password | `allowSimple` | False | `forcePIN` | True
+| Require Password | `forcePIN` | Yes
 | Minimum Passcode length | `minLength` | 12
 | Maximum Failed Attempts Before Wipe | `maxFailedAttempts` | 3
 | Auto-Lock After Inactivity | `maxInactivity` | 300 (5 Mins)
 | Force Change Passcode After Time | `maxPINAgeInDays` | 120
-| Passcode History | `pinHistory` | False
+| Passcode History | `pinHistory` | No
 | Minimum complex characters | `minComplexChars` | 1
-| Require Alphanumeric Passcode | `requireAlphanumeric` | True
-| Grace Period For Device Lock | `maxGracePeriod` | False
+| Require Alphanumeric Passcode | `requireAlphanumeric` | Yes
+| Grace Period For Device Lock | `maxGracePeriod` | No
 
 # Reasons for changes from guidelines
 - Allow Notification Center on Lock Screen - See any notifications quickly
